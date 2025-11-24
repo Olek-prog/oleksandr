@@ -36,8 +36,34 @@ const Popup = ({ handleClose, project }) => (
         <div className={style.link}>
           {project.live_link && project.live_link !== '#' ? (
             <a href={project.live_link} target="_blank" className={`${style.live_link} ${style.btn_container}`} rel="noreferrer">
-              <span className={style.btn_hover}>View Live</span>
-              <span className={style.btn}>View Live</span>
+              <span className={style.btn_hover}>
+                {project.live_link.includes('apple.com') ? 'iOS App' : 'View Live'}
+              </span>
+              <span className={style.btn}>
+                {project.live_link.includes('apple.com') ? 'iOS App' : 'View Live'}
+              </span>
+            </a>
+          ) : null}
+          {project.source_link && project.source_link !== project.live_link && project.source_link !== '#' ? (
+            <a href={project.source_link} target="_blank" className={`${style.live_link} ${style.btn_container}`} rel="noreferrer">
+              <span className={style.btn_hover}>
+                {project.source_link.includes('apple.com') ? 'iOS App' : project.source_link.includes('play.google.com') ? 'Android App' : 'Website'}
+              </span>
+              <span className={style.btn}>
+                {project.source_link.includes('apple.com') ? 'iOS App' : project.source_link.includes('play.google.com') ? 'Android App' : 'Website'}
+              </span>
+            </a>
+          ) : null}
+          {project.android_link && project.android_link !== '#' ? (
+            <a href={project.android_link} target="_blank" className={`${style.live_link} ${style.btn_container}`} rel="noreferrer">
+              <span className={style.btn_hover}>Android App</span>
+              <span className={style.btn}>Android App</span>
+            </a>
+          ) : null}
+          {project.command_link && project.command_link !== '#' ? (
+            <a href={project.command_link} target="_blank" className={`${style.live_link} ${style.btn_container}`} rel="noreferrer">
+              <span className={style.btn_hover}>Command</span>
+              <span className={style.btn}>Command</span>
             </a>
           ) : null}
         </div>

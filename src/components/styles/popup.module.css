@@ -164,9 +164,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   padding: 15px 0 20px 0;
   flex-shrink: 0;
   margin-top: auto;
+  flex-wrap: wrap;
 }
 
 .btn_container {
@@ -182,7 +184,9 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 120px;
+  max-width: 200px;
   box-sizing: border-box;
 }
 
