@@ -22,7 +22,7 @@ const social = [
   {
     id: 3,
     name: 'Github',
-    url: 'https://github.com/prodev930',
+    url: 'https://github.com/olek-prog',
     icon: github,
     icon1: github1,
   },
@@ -144,7 +144,7 @@ const projects = [
     tech: ['Flutter', 'SwiftUI', 'i18next', 'Swift', 'CoreData', 'QR Scanner', 'Webcam', 'XCTest', 'Unit', 'Google Maps', 'Styled Components', 'Touch ID Authentication'],
     img: virusageeks,
     carousel: [virusageeks],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.virusgeeks.com',
   },
   {
@@ -154,7 +154,7 @@ const projects = [
     tech: ['Flutter', 'Dart', 'REST', 'Google Analytics', 'AWS', 'Google Tag Manager'],
     img: beach,
     carousel: [beach],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.beachbody.com',
   },
   {
@@ -164,7 +164,7 @@ const projects = [
     tech: ['Flutter', 'Dart', 'GraphQL', 'i18next', 'Node.js', 'Android', 'GitHub', 'ElasticSearch', 'Spinaker', 'MediaPipe', 'LLM', 'Gemfury'],
     img: kw,
     carousel: [kw],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.kw.com',
   },
   {
@@ -174,7 +174,7 @@ const projects = [
     tech: ['Swift', 'SwiftUI', 'UIKit', 'Xcode', 'Core Data', 'Combine', 'Alamofire', 'URLSession', 'Core Animation', 'Auto Layout', 'Push Notifications', 'In-App Purchases (StoreKit)', 'Firebase', 'XCTest / Unit Testing', 'App Store Deployment'],
     img: lion,
     carousel: [lion],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.farfetch.com',
   },
   {
@@ -184,7 +184,7 @@ const projects = [
     tech: ['Swift', 'SwiftUI', 'UIKit', 'Combine', 'Core Data', 'CloudKit', 'Core Animation', 'Core Location', 'ARKit', 'LiDAR (Depth Scanning)', 'Bluetooth / IoT Device Integration', 'StoreKit (In-App Purchases)', 'URLSession / REST APIs', 'GraphQL (Apollo iOS)', 'AWS S3', 'Cognito', 'AWS Lambda', 'AWS Amplify', 'PostgreSQL', 'Firebase', 'XCTest / Unit Testing', 'App Store Deployment'],
     img: luko,
     carousel: [luko],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.thecut.com',
   },
   {
@@ -194,7 +194,7 @@ const projects = [
     tech: ['Kotlin', 'Java', 'Android SDK', 'Jetpack Compose', 'ViewModel / LiveData', 'Room Database', 'Firebase', 'ML Kit', 'TensorFlow Lite', 'On-device Inference', 'Image Classification', 'Object Detection', 'NLP (Text Analysis)', 'Recommendation Systems', 'Authentication (Google, Facebook)', 'REST APIs / Node.js', 'Real-time Chat (Firebase / WebSockets)', 'Geolocation / Map Features'],
     img: foobee,
     carousel: [foobee],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.foobee.com',
   },
   {
@@ -204,7 +204,7 @@ const projects = [
     tech: ['Flutter', 'Dart', 'Provider', 'Riverpod', 'Bloc / Cubit', 'GetX', 'Flutter Animations', 'Lottie', 'Firebase Integration', 'Push Notifications', 'Responsive UI', 'Custom Widgets', 'API Integration', 'State Management'],
     img: barber,
     carousel: [barber],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.freightleads.com',
   },
   {
@@ -214,7 +214,7 @@ const projects = [
     tech: ['Flutter', 'Dart', 'Swift', 'SwiftUI', 'WebRTC', 'Chat Messaging', 'Animations', 'Google Map', 'In App Purchase'],
     img: network,
     carousel: [network],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.networx.com',
   },
   {
@@ -224,7 +224,7 @@ const projects = [
     tech: ['React Native', 'Node.js', 'MongoDB', 'Redis'],
     img: mused,
     carousel: [mused],
-    source_link: 'https://github.com/prodev930',
+    source_link: 'https://github.com/olek-prog',
     live_link: 'https://www.mused.com',
   },
 ];
