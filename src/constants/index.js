@@ -246,7 +246,7 @@ const experiences = [
     name: 'iPay.ua',
     image: companytwo,
     text: "Implemented intelligent payment routing system that automatically switches to alternative payment service providers (PSP) when one method fails, preserving seamless mobile user experience. Built native bridging modules using Swift for iOS and Kotlin for Android, wrapped into a shared Flutter layer for uniform UI across platforms. Implemented tokenization and secure storage of payment credentials, overseeing PCI-compliance related mobile flows. Delivered subscription and recurring payment support for wallet top-ups and premium account tiers, achieving increased user retention. Ensured robust payment processing with comprehensive error handling and fallback mechanisms.",
-    jobtitle: 'Mobile Payments Engineer',
+    jobtitle: 'Mobile Engineer',
     location: 'Kyiv, Ukraine (04/2017 - 11/2019)',
   },
   {
@@ -254,7 +254,7 @@ const experiences = [
     name: 'NovaPay',
     image: companythree,
     text: "Increased client engagement by delivering mobile apps with innovative fintech features. Built secure onboarding flows including document verification and biometric authentication for wallet features. Optimized mobile performance and improved maintainability using clean architecture patterns. Collaborated with DevOps to deploy CI/CD pipelines for mobile builds with automated tests, crash analytics, and payment-flow monitoring. Ensured high-quality mobile applications with focus on security, performance, and user experience.",
-    jobtitle: 'Fintech & Mobile Developer',
+    jobtitle: 'Mobile Developer',
     location: 'Kyiv, Ukraine (09/2016 - 03/2017)',
   },
 ];

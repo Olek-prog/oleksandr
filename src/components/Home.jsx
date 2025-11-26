@@ -27,7 +27,7 @@ const Home = () => (
         I am a 
         {' '}
         <motion.span variants={fadeIn('', '', 0.3, 1)} className={style.name}>
-          Senior Mobile and Fintech Engineer
+          Senior Mobile Engineer
         </motion.span>
       </p>
       <motion.button

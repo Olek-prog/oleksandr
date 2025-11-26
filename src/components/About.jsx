@@ -22,7 +22,7 @@ const About = () => (
           Oleksandr Chernyakhov
         </a>
         {' '}
-        — a Senior Mobile and Fintech Engineer with a proven track record of architecting enterprise-grade mobile applications and financial technology platforms that process billions in transactions. I specialize in transforming complex financial systems into intuitive, secure, and high-performance mobile experiences that millions of users trust daily.
+        — a Senior Mobile Engineer with a proven track record of architecting enterprise-grade mobile applications and financial technology platforms that process billions in transactions. I specialize in transforming complex financial systems into intuitive, secure, and high-performance mobile experiences that millions of users trust daily.
       </motion.p>
       
       <motion.p variants={fadeIn('', '', 1, 1)} className={style.text}>
